@@ -1,6 +1,12 @@
 .titre1 {
     color: rgba(255, 0, 0, 0.699);
+    font-family: "Sekuya", system-ui;
+    font-weight: 100;
+    font-style: normal;
 } 
+.taille-titre1 {
+    font-size: 1em;
+}
 .titre3 {
     color: rgb(30, 255, 0);
 }
