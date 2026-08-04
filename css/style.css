@@ -41,8 +41,27 @@ a:hover {
     background: linear-gradient(to left, #7efff900, #e57eff);
 }
 
+a:active {
+    color:black;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 5px;
+    background: linear-gradient(to left, #7e8bff6c, #7eff7e);
+}
+
 a {
     color: white;
+    font-weight: 700;
+}
+
+a:visited {
+    color: rgb(0, 255, 255);
+    font-weight: 700;
+}
+
+.para2{
+    font-style: italic;
+    color: gray;
     font-weight: 700;
 }
 
@@ -52,11 +71,13 @@ h2 {
     text-align : left;
     font-weight: 700;
 }
+
 .paragraph1 {
     font-size: 1.2em;
     font-style: normal;
     text-align: justify;
 }
+
 .paragraph2 {
     font-size: 1.2em;
     font-style: normal;
@@ -68,13 +89,17 @@ h2 {
     font-weight: 700;
 }
 
-
+.footer{
+    color: white;
+    font-size: 1em;
+}
 .titre1A {
     color: rgba(212, 0, 255, 0.959);
     font-family: "Libertinus Math", system-ui;
     font-weight: 400;
     font-style: normal;
 }
+
 .titre3A {
     color: rgb(30, 255, 0);
     font-family: "Merriweather", serif;
@@ -84,6 +109,7 @@ h2 {
     font-variation-settings:
     "wdth" 100;
 }
+
 .taille-textA {
     font-size: 35px;
 }
