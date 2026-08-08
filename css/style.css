@@ -25,8 +25,8 @@ header {
 
 .image-conteneur {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    grid-template-rows: 300PX 300PX 300PX 300PX 300PX 300PX 300PX;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 300PX 300PX ; 
     gap: 5px;
 }
 
@@ -34,6 +34,10 @@ header {
     grid-column: 1 / 5;
     grid-row: 1/ 1;
 }
+/* .one:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+} */
     
 .two{
     grid-column: 1/ 3;
@@ -72,21 +76,22 @@ header {
     grid-row: 7/ 7;
 }
 
-.conteneur{
+.navi{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
+    gap: 20px;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 30px;
+    justify-content: flex-end;
+    Position: sticky;
+    top: 0;
 }
 .un{
- order: 2;
+    order: 2;
 }
 .deux{
- order: 1;
+    order: 1;
 }
 .trois{
- order: 3;
+    order: 3;
 }
 
 .texte1:hover {
@@ -114,6 +119,7 @@ a:hover {
     border: 2px solid white;
     padding: 5px;
     background: linear-gradient(to left, #7efff900, #e57eff);
+    opacity: 0.7; 
 }
 
 a:active {
@@ -164,10 +170,6 @@ h2 {
     font-size: 1em;
 }
 
-.nav {
-    text-align: center;
-}
-
 .titre1A {
     color: rgba(212, 0, 255, 0.959);
     font-family: "Libertinus Math", system-ui;
@@ -189,3 +191,29 @@ h2 {
     font-size: 35px;
 }
 
+table
+{
+    border-collapse: collapse;
+}
+caption{
+    margin-bottom: 10px;
+    text-decoration:underline;
+}
+
+td, th
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    position:absolute;
+    top: 930px;
+    left: 50%;
+} 
+/* div
+{
+    border: 1px solid #ccc;
+} */
