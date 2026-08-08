@@ -74,8 +74,6 @@ header {
 
 .conteneur{
     display: flex;
-    height: 1%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     flex-direction: row;
     justify-content: flex-start;
